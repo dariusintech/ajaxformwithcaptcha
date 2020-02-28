@@ -82,22 +82,27 @@
 
   if(errorName == true){
     $("#name").addClass("input-error");
+    grecaptcha.reset();
   }
 
   if(errorEmail == true){
     $("#email").addClass("input-error");
+    grecaptcha.reset();
   }
 
   if(errorMessage == true){
     $("#message").addClass("input-error");
+    grecaptcha.reset();
   }
 
   if(errorEmail == true){
     $("#email").addClass("input-error");
+    grecaptcha.reset();
   }
 
   if(errorEmailFormat == true){
     $("#email").addClass("input-error");
+    grecaptcha.reset();
   }
 
   if(errorName == false && errorEmail == false && errorMessage == false && errorEmailFormat == false && recaptcha == true){
