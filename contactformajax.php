@@ -102,6 +102,7 @@
 
   if(errorName == false && errorEmail == false && errorMessage == false && errorEmailFormat == false && recaptcha == true){
     $("#name, #email, #message").val("");
+    grecaptcha.reset();
   }
 
 </script>
